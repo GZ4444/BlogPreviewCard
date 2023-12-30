@@ -1,0 +1,24 @@
+:root {
+  --thisYellow: #f4d04e;
+  --thisBlack: #111111;
+  --thisGrey: #7f7f7f;
+  --thisWhite: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--thisYellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  height: 200px;
+  width: 400px;
+  background-color: var(--thisWhite);
+}
