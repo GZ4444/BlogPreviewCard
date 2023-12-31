@@ -27,12 +27,20 @@ main {
   width: 384px;
   border-radius: 20px;
   display: flex;
+  flex-direction: column;
+  padding: 24px;
 }
 
-.card img{
-    height: 200px;
-    width: 336px;
-    border-radius: 10px;
-    justify-content: center;
-    margin: 24px;
+.card img {
+  height: 200px;
+  width: 336px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.learningRect {
+  width: 82px;
+  height: 29px;
+  background-color: var(--thisYellow);
+  display: block;
 }
