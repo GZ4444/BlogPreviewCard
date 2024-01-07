@@ -58,14 +58,17 @@ main {
 .published{
   font-size: 1.4em;
   font-weight:100;
+  margin-bottom: 0px;
 }
 
 .htmlCss{
   font-size: 2.4em;
   font-weight: bolder;
+  margin-bottom: 0px;
 }
 
 .pLanguages{
     color: var(--thisGrey);
     font-size: 1.6em;
+    line-height: 25px;
 }
