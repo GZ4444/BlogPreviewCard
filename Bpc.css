@@ -7,6 +7,7 @@
 
 * {
   box-sizing: border-box;
+  /* Tu pytanie do Adama odnosnie tego co zrobiles z resetowaniem wartosci dopiero po napisaniu css'a, jak z tego wybrnąć w takiej sytuacji */
 }
 
 body {
@@ -26,8 +27,9 @@ main {
 
 .card {
   background-color: var(--thisWhite);
-  height: 522px;
+  max-height: 522px;
   width: 384px;
+  max-width: 100%;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -35,6 +37,7 @@ main {
   box-shadow: 10px 10px;
   border-width: 10px;
   border-color: black;
+
 }
 
 .card img {
@@ -79,4 +82,25 @@ main {
     color: var(--thisGrey);
     font-size: 1.6em;
     line-height: 25px;
+} 
+
+@media only screen and (max-width: 768px){
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+  } 
+
+  .card img {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: center;
+  }
 }
