@@ -71,6 +71,10 @@ main {
   margin-bottom: 0px;
 }
 
+.htmlCss:active{
+  color: var(--thisYellow);
+}
+
 .pLanguages{
     color: var(--thisGrey);
     font-size: 1.6em;
